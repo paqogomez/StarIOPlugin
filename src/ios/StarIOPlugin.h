@@ -36,7 +36,7 @@
 #import <Foundation/Foundation.h>
 
 #import <Cordova/CDVPlugin.h>
-#import <StarIO.framework/Headers/SMPort.h>
+#import "StarIO.framework/Headers/SMPort.h"
 #import <StarIO_Extension/StarIoExtManager.h>
 
 @interface StarIOPlugin : CDVPlugin <StarIoExtManagerDelegate> {}
