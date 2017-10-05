@@ -12,7 +12,7 @@
     #ifdef BUILDING_STARIO
         #include <starmicronics/StarIOPort.h>
     #else
-        #include "StarIO/starmicronics/StarIOPort.h"
+        #include "../StarIO/starmicronics/StarIOPort.h"
     #endif
 #else
     #include <starmicronics/StarIOPort.h>
