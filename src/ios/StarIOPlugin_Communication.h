@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <StarIO.framework/Headers/SMPort.h>
+#import "StarIO.framework/Headers/SMPort.h"
 
 @interface StarIOPlugin_Communication : NSObject
 
